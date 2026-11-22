@@ -2,7 +2,7 @@ name: Kamerwacht
 
 on:
   schedule:
-    - cron: "*/5 6-18 * * *"   # elke 5 minuten, ongeveer 07:00-20:00 NL-tijd (GitHub rekent in UTC en kan een paar minuten vertragen)
+    - cron: "*/5 6-18 * * *"    # elke 5 minuten, ongeveer 07:00-20:00 NL-tijd (GitHub rekent in UTC en kan een paar minuten vertragen)
   workflow_dispatch:          # handmatig starten via het tabblad Actions
 
 permissions:
